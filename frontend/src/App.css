@@ -1,0 +1,65 @@
+/* variables de color */
+.rgbcolor{
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+.rgbcolor1{
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.color1{
+  background: #6941C6;
+}
+.color2{
+  background: #026AA2;
+}
+/* success */
+.color3{
+  background: #027A48;
+}
+/* bg-color */
+.colorbg{
+  background: #101828;
+}
+.colorv{
+  background: #12b76a;
+}
+.gradient{
+  background: -webkit-linear-gradient(to right, #384558, #465366); 
+  background: linear-gradient(to right, #384558, #465366);
+}
+.orange{
+  background:#EC4A0A;
+}
+.fondo{
+  background:rgba(0, 0, 0, 0.3);
+}
+body{
+  background: rgb(16, 24, 40) !important;
+}
+
+.body{    
+  background: rgb(16, 24, 40);
+}
+
+*{
+  font-family: "Inter", sans-serif;
+  
+  
+}
+a{
+  text-decoration: none;
+}
+#but{
+  position: relative;
+  top: 5px;
+}
+#but-2{
+  position: relative;
+  top: -3px;
+}
+.faceboo{
+  margin-top: 4rem;
+  margin-left: 2rem;
+  
+  border-color: none;
+}
+

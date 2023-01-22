@@ -1,0 +1,38 @@
+.card{
+    max-width: 18rem;
+    background: #384558; 
+    background: -webkit-linear-gradient(to right, #384558, #465366); 
+    background: linear-gradient(to right, #384558, #465366);
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+@media (max-width: 761px){
+     .card{
+      max-width: 22rem;
+      max-height: 19rem;
+     }
+}
+.youtube{
+    color: #D92D20; ;
+}
+#img7{
+    background-image: url(../../public/images/suplementos-alimenticios-principal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 90%;
+    min-height: 40vh;
+    margin-left: 4%;
+    border-radius: 15px;
+  } 
+  #a5{
+    position: relative;
+    margin-left: 70%;
+    top: 15rem;
+    width: 170px;
+    height: 70px;
+    border-radius: 18px;
+  }

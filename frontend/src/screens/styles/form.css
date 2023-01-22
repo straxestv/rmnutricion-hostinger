@@ -1,0 +1,93 @@
+.fondo-form{
+    background: url("https://cdn.discordapp.com/attachments/481973728402472961/978123614685659186/unknown.png") no-repeat !important;
+	background-size: cover !important;
+    min-height: 100% !important;
+    max-width: 100% !important;
+}
+.row1{
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+#formclient{
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: 800px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 40px;
+    color: #858b8e;
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+    border-radius: 5rem;
+}
+
+#formclient h2{
+    padding-bottom: 20px;
+    margin: 10px 20px;
+    font-size: 24px;
+}
+
+#formclient hr{
+    margin-top: 38px;
+    margin-bottom: 54px;
+    margin-left:3px;
+    border: 1px solid #cccccc;
+
+}
+
+#formclient .form-group{
+	margin-bottom: 20px;
+    margin-left:20px;
+	width: 30%;
+    float:left;
+    text-align: left;
+}
+
+#formclient .form-control{
+    padding: 12px 20px;
+    height: auto;
+    border-radius: 2px;
+}
+
+#formclient .radio-inline{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#formclient .gender{
+    width: 30%;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#formclient .btn{
+    width: 46%;
+    margin: 20px auto 0;
+    display: block;
+    outline: none;
+}
+
+@media screen and (max-width: 800px){
+    #advanced-search-form .form-group{
+        width: 45%;
+    }
+
+    #advanced-search-form{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 560px){
+    #formclient .form-group{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #formclient h2{
+        text-align: center;
+    }
+}

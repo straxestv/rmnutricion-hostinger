@@ -1,0 +1,8 @@
+
+.salto{
+    white-space: pre-line;
+}
+
+.post-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://mdbootstrap.com/img/Photos/Others/city7.jpg);
+}

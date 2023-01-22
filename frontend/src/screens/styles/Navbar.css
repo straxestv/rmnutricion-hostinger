@@ -1,0 +1,28 @@
+/* primary */
+.color1{
+    background: #42307D;
+}
+/* secondary */
+.color2{
+    background: #026AA2;
+}
+/* success */
+.color3{
+    background: #027A48;
+}
+/* bg-color */
+.colorbg{
+    background: #101828;
+}
+.gradient{
+    background: -webkit-linear-gradient(to right, #384558, #465366); 
+    background: linear-gradient(to right, #384558, #465366);
+}
+.orange{
+    background:#EC4A0A;
+}
+/* rojo */
+.error{
+    background: #D92D20;
+}
+
