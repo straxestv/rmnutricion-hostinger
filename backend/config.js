@@ -4,7 +4,7 @@ dotenv.config();
 
 export default {
   PORT: process.env.PORT || 5000,
-  MONGODB_URL: process.env.MONGODB_URL || 'mongodb+srv://rmnutricion/hostinger:19631964EDD@cluster0.dbaj49j.mongodb.net/?retryWrites=true&w=majority',  
+  MONGODB_URL: process.env.MONGODB_URL || 'mongodb+srv://rmnutricion-hostinger:19082002edd@cluster0.dbaj49j.mongodb.net/?retryWrites=true&w=majority',  
   JWT_SECRET: process.env.JWT_SECRET || 'somethingsecret',
   PAYPAL_CLIENT_ID: process.env.PAYPAL_CLIENT_ID || 'AfNlsUDpeZEi3lmRerA6CspkZ7rfggc-UAVabZ8LLClKaKhg1ElIiHWhnGue3M0sxZr7gjz3X_AzHynB',
   accessKeyId: process.env.accessKeyId || 'accessKeyId',
